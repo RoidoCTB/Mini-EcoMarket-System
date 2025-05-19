@@ -17,4 +17,4 @@ How to Run
 
     Open the project folder in Visual Studio Code or any C# editor.
 
-    Run the following commands:
+    Run the following commands:dotnet build dotnet run
