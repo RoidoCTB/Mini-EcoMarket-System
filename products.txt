@@ -1,0 +1,4 @@
+Apple,0.5,100,Fruit
+Carrot,0.3,200,Vegetable
+Orange,0.5,150,Fruit
+Cabbage,0.6,1,Vegetable
