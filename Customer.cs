@@ -8,14 +8,14 @@ namespace MiniEcoMarket
     {
         public List<Order> OrderHistory { get; private set; } = new List<Order>();
 
-        public Customer(string username, string email)
-            : base(username, email)
+        public Customer(string username)
+            : base(username) // Removed email parameter
         {
         }
 
         public override void DisplayInfo()
         {
-            Console.WriteLine($"Customer: {Username} (Email: {Email})");
+            Console.WriteLine($"Customer: {Username}");
         }
 
         public override string GetRole() => "Customer";
@@ -27,3 +27,4 @@ namespace MiniEcoMarket
         }
     }
 }
+

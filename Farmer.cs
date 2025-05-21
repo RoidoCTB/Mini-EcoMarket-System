@@ -9,14 +9,14 @@ namespace MiniEcoMarket
         // List of products the farmer offers
         public List<Product> Products { get; private set; } = new List<Product>();
 
-        public Farmer(string username, string email)
-            : base(username, email)
+        public Farmer(string username)
+            : base(username) // Removed email parameter
         {
         }
 
         public override void DisplayInfo()
         {
-            Console.WriteLine($"Farmer: {Username} (Email: {Email})");
+            Console.WriteLine($"Farmer: {Username}");
         }
 
         public override string GetRole() => "Farmer";
@@ -28,3 +28,4 @@ namespace MiniEcoMarket
         }
     }
 }
+

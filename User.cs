@@ -6,12 +6,10 @@ namespace MiniEcoMarket
     public abstract class User
     {
         public string Username { get; set; }
-        public string Email { get; set; }
 
-        public User(string username, string email)
+        public User(string username)
         {
             Username = username;
-            Email = email;
         }
 
         // DisplayInfo will be implemented differently by each user type
@@ -21,3 +19,4 @@ namespace MiniEcoMarket
         public abstract string GetRole();
     }
 }
+

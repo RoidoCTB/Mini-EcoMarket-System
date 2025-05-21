@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rules\\Desktop\\oop final\\MyProject\\MyProject.csproj": {}
+    "C:\\Users\\rules\\Desktop\\OOP FINAl\\MyProject\\MyProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rules\\Desktop\\oop final\\MyProject\\MyProject.csproj": {
+    "C:\\Users\\rules\\Desktop\\OOP FINAl\\MyProject\\MyProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rules\\Desktop\\oop final\\MyProject\\MyProject.csproj",
+        "projectUniqueName": "C:\\Users\\rules\\Desktop\\OOP FINAl\\MyProject\\MyProject.csproj",
         "projectName": "MyProject",
-        "projectPath": "C:\\Users\\rules\\Desktop\\oop final\\MyProject\\MyProject.csproj",
+        "projectPath": "C:\\Users\\rules\\Desktop\\OOP FINAl\\MyProject\\MyProject.csproj",
         "packagesPath": "C:\\Users\\rules\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rules\\Desktop\\oop final\\MyProject\\obj\\",
+        "outputPath": "C:\\Users\\rules\\Desktop\\OOP FINAl\\MyProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rules\\AppData\\Roaming\\NuGet\\NuGet.Config",
